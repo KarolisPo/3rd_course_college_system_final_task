@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style/stiliai.css">
+    <title>Login</title>
+</head>
+<style>
+    input{
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <!-- PRISIJUNGIMO LOGO BLOKAS -->
+            <div class="login-logo">
+                <img src="img/login_logo.JPG" alt="login-logo" height="70px" width="80px">
+                <span class="prisijungimas">PRISIJUNGIMAS</span>
+            </div>
+            <!-- LOGIN IR PASSWORDO LAUKAI -->
+            <div class="login-password-fields">
+                <form action="prisijungimas.php" method="">
+                    <img id="email_login" src="img/email_login.jpg" alt="">
+                    <input class="input-login" type="text" name="el_pastas" placeholder="el. pašto adresas">
+                    <img id="password_login" src="img/password_login.jpg" alt="">
+                    <input class="input-login" type="password" name="slaptazodis" placeholder="slaptažodis">
+                    <div class="pass-error">
+                        <span>Slaptažodis arba prisijungimo vardas neteisingas</span>
+                    </div>
+                    <div class="login-button">
+                        <input id="submit-button" type="submit" name="submit" value="Prisijungti">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

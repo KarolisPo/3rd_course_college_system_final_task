@@ -1,0 +1,211 @@
+body {
+    background-color: #F2EBE5;
+}
+
+.content_block {
+    position: relative;
+    width: 60%;
+    height: 756px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.header{
+    position: absolute;
+    width: 60%;
+    height: 50px;
+    margin-left: 40%;
+    border: 1px solid black;
+    background-color: #2B262D;
+    color: white;
+}
+
+.exit {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 40px;
+    right: 0;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+.header h2 {
+    width: 80%;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
+    transform: translateY(-50%);
+}
+
+.client_info {
+    position: absolute;
+    width: 40%;
+    height: 750px;
+}
+
+.info_block {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: block;
+    font-size: 28px;
+    background-color: #647295;
+    border: 1px solid #647295;
+    color: white;
+}
+
+
+.paslaugos_block {
+    position: relative;
+    width: 60%;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.form_block{
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+
+
+.form_block_paslauga{
+    position: relative;
+    width: 100%;
+    height: 480px;
+
+}
+
+.form_block_paslauga form {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.paslaugos {
+    position: relative;
+    border: 1px solid black;
+    height: 350px;
+    width: 430px;
+    border-radius: 40px;
+    background-color: #2B262D;
+    margin-left: 50%;
+    margin-top: 150px;
+    transform: translateX(-50%);
+    font-size: 22px;
+    color: white;
+}
+
+.keisti-paslauga{
+    position: relative;
+    width: 220px;
+    border: 1px solid #9f496E;
+    background-color: #9f496E;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.keisti-paslauga:hover{
+    background-color: #647295;
+    border: 1px solid #647295;
+}
+
+.vardas_pavarde{
+    margin-top: 100px;
+}
+
+label {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 35px;
+    width: 250px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 18px;
+}
+
+.keisti_btn {
+    width: 220px; 
+    height:60px;
+    border-radius: 10px;
+     background-color: #9f496E; 
+     border: 1px solid #9f496E;
+     color: white;
+     margin-top: 25px;
+     cursor: pointer;
+}
+
+.keisti_btn:hover{
+    background-color: #647295; 
+    border: 1px solid #647295;
+}
+
+
+.pakeistas_pass {
+    margin-top: 250px;
+    font-size: 25px;
+    color: green;
+}
+
+.maxi, .mini, .midi {
+    border: 1px solid black;
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    top: 0;
+    margin-left: 1.75%;
+    margin-top: 20px;
+}
+
+.paslasugos_block {
+    position: relative;
+}
+
+.paslasugos_block form{
+    position: absolute;
+    margin-top: 550px;
+    width: 100%;
+    height: 700px;
+}
+
+.planas_btn {
+    width: 220px;
+    margin-top: 20px;
+    height:60px;
+     background-color: #9f496E;
+     border: 1px solid #9f496E; 
+     color: white; 
+     cursor: pointer;
+     border-radius: 10px;
+}
+
+.planas_btn:hover{
+    background-color: #647295;
+    border: 1px solid #647295;
+}
+
+.atgal_btn {
+    position: relative;
+
+}

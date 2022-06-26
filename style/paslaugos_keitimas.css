@@ -1,0 +1,43 @@
+.forma_trinti {
+    margin-top: 10px;
+    display: none;
+}
+
+.trinti_btn {
+    display: block;
+}
+
+.client_info {
+    position: absolute;
+    width: 97%;
+    margin-left: 3%;
+    height: 140px;
+    margin-top: 100px;
+}
+
+.left_action_block {
+    position: absolute;
+    width: 50%;
+    margin-top: 240px;
+    height: 320px;
+}
+
+.right_action_block {
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 240px;
+    height: 320px;
+    border-left: 2px solid black;
+}
+
+.right_action_block button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.bot_block {
+    position: absolute;
+    width: 100%;
+    margin-top: 550px;
+}

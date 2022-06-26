@@ -1,0 +1,179 @@
+
+.container {
+    height: 800px;
+    width: 860px;
+    margin: 0 auto;
+    background-color: #333333; 
+}
+.login-container {
+    height: 440px;
+    width: 430px;
+    border-radius: 15%;
+    background-color: white;
+    position:absolute;
+    top: 5%; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    
+}
+.login-logo{
+height: 100px;
+width: 320px;
+margin: auto;
+margin-top: 50px;
+}
+.login-password-fields{
+height: 120px;
+width: 280px;
+margin: auto;
+}
+.login-button{
+height: 60px;
+width: 200px;
+margin: auto;
+}
+.prisijungimas{
+    font-family: helvetica;
+    font-size: 22px;
+    color: #2d2b2b;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.input-login{
+    height: 45px;
+    width: 280px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+#email_login{
+position: absolute;
+border-radius: 10px;
+margin-top: 4px;
+margin-left: 5px;
+}
+#password_login{
+position: absolute;
+border-radius: 10px;
+margin-top: 3px;
+margin-left: 4px;
+height: 45px;
+}
+#submit-button{
+    background-color: #F0A30A;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* --------------------------------------------- */
+.window {
+    border: 1px solid black;
+    width: 860px;
+    height: 640px;
+    margin: 0 auto;
+}
+ /* Kliento langas  */
+.sidebar{
+    border: 1px solid #808080;
+    height: 640px;
+    width: 280px;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: #808080;
+}
+.vardas{
+    margin-top: 45px;
+    margin-left: 10px;
+    font-family: helvetica;
+}
+.client-info-block{
+    font-family: helvetica;
+    margin-left: 70px;
+    margin-top: 90px;
+    color: white;
+}
+.client-paragraph{
+    margin-left: 20px;
+}
+
+.client-header{
+    position: absolute;
+    border: 1px solid green;
+    height: 40px;
+    width: 579px;
+    margin: auto;
+    margin-left: 280px;
+}
+h2{
+    margin-top: 5px;
+    text-align: center;
+}
+#exit{
+    height: 30px;
+    width: 25px;
+}
+.exit{
+    margin-top: -47px;
+    margin-left: 540px;
+}
+
+
+.paslaugos{
+    border: 1px solid black;
+    height: 350px;
+    width: 430px;
+    margin-top: -460px;
+    margin-left: 355px;
+    border-radius: 40px;
+    background-color: #CCCCCC;
+}
+td{
+    padding: 15px;
+}
+
+.keisti-paslauga{
+    width: 220px;
+    border: 1px dotted black;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+
+.pass-error  {
+    margin: 5px 0 5px 0;
+    color: red;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+/* Paslaugu blokai */
+.paslaugu-blokai{
+    margin-top: 10px;
+    margin-left: -50px;
+    height: 300px;
+    width: 530px;
+}
+.maxi, .midi, .mini{
+    display: inline-block;
+    border: 2px solid grey;
+    height: 280px;
+    width: 170px;
+}
+.grey {
+    color: grey;
+}
+select{
+    width: 100px;
+}
+
+
+ 
+.keisti_blokas {
+    position: absolute;
+    border: 1px solid red;
+    width: 100%;
+    height: 250px;
+}

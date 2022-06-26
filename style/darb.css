@@ -1,0 +1,136 @@
+
+/* .registracija-container{
+    position: relative;
+    margin-top: 120px;
+    border: 1px solid black;
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+} */
+#registracija{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#registracija label{
+    margin-left: 5px;
+}
+
+.home{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+    /*registracijos lauku lygiavimas */
+#vardas{
+    margin-left: 69px;
+}
+#pavarde{
+    margin-left: 70px;
+}
+#planas{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#ident{
+    margin-left: 22px;
+}
+#ak{
+    margin-left: 17px;
+}
+#sutarties-pradzia{
+    margin-left: 4px;
+    margin-right: 54px;
+}
+#sutarties-pabaiga{
+    margin-left: 12px;
+}
+.save-block{
+    display: flex;
+    justify-content: center;
+}
+#save{
+    margin-right: 20px;
+}
+#save, #reset{
+    padding: 5px;
+    width: 80px;
+}
+#irenginys{
+    margin-left: 65px;
+}
+#kliento-slaptazodis{
+    margin-left: 35px;
+}
+#darbuotojas{
+    margin-left: 45px;
+}
+/*lauku lygiavimas pabaiga */
+
+select{
+    width: 100px;
+}
+
+.nuoroda-i-paieska{
+    position: absolute;
+    padding: 40px;
+    background-color: #6495ED;
+    width: 170px;
+    left: 50%;
+    top: 30%;
+}
+.list {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nuoroda-i-paieska:hover{
+    background-color: #2F4F4F;
+    transition: 0.2s;
+}
+.modify{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.modify button {
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.paslaugos{
+    margin: 0 auto;
+    width: 200px;
+}
+.save-remove{
+    width: 400px;
+    margin: 0 auto;
+}
+.save-remove button{
+    padding: 10px;
+    width: 180px;   
+    font-size: 18px;
+    margin-right: 10px;
+}
+.center{
+    text-align: center;
+}
+.ataskaitos-blokas{
+    border: 1px solid green;
+    height: 400px;
+}
+.keisti_btn{
+    float: right;
+}
+/* .keisti-pasl, .ataskaita-btn, .istrinti-btn{
+    width: 120px;
+    padding: 6px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 20px;
+} */
+
+

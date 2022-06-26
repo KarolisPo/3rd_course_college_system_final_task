@@ -1,0 +1,57 @@
+.registracija_container{
+position: absolute;
+width: 100%;
+margin-top: 50px;
+}
+
+#registracija{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#registracija label{
+    margin-left: 5px;
+}
+
+.home{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+    /*registracijos lauku lygiavimas */
+#vardas{
+    margin-left: 69px;
+}
+#pavarde{
+    margin-left: 70px;
+}
+#planas{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#ident{
+    margin-left: 22px;
+}
+#ak{
+    margin-left: 17px;
+}
+#sutarties-pradzia{
+    margin-left: 4px;
+    margin-right: 54px;
+}
+#sutarties-pabaiga{
+    margin-left: 12px;
+}
+#save{
+    margin-right: 20px;
+}
+
+#irenginys{
+    margin-left: 65px;
+}
+#kliento-slaptazodis{
+    margin-left: 35px;
+}
+#darbuotojas{
+    margin-left: 45px;
+}
